@@ -1,0 +1,36 @@
+{
+  "name": "backend-netflix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js ",
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/client": "^3.5.9",
+    "@apollo/react-hooks": "^4.0.0",
+    "apollo-server": "^3.6.2",
+    "apollo-server-express": "^3.6.3",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "depd": "^2.0.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^6.0.2",
+    "graphql": "^16.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.17",
+    "nodemailer": "^6.7.2",
+    "react-nextjs-toast": "^1.2.5",
+    "safe-buffer": "^5.2.1",
+    "stripe": "^8.205.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
